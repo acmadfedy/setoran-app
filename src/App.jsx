@@ -126,7 +126,7 @@ export default function App() {
 
       {/* Main Content */}
       <main className="max-w-5xl mx-auto p-4 md:p-6">
-        <h1 className="text-3xl text-emerald-600">Tes Tailwind</h1>
+        <h1 className="text-3xl text-emerald-600">ACMAD FERDY</h1>
         {view === 'login' && <LoginView onLogin={handleLogin} loading={loading} />}
         {view === 'dashboard' && <DashboardView dosenData={dosenData} onSelectStudent={(mhs) => { setSelectedStudent(mhs); setView('detail'); }} />}
         {view === 'detail' && <DetailView nim={selectedStudent?.nim} token={token} onBack={() => setView('dashboard')} showError={showError} showSuccess={showSuccess} />}
