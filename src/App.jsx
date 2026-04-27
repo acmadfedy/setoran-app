@@ -427,7 +427,7 @@ function DetailView({ nim, token, onBack, showError, showSuccess }) {
         {Object.entries(groupedSurah).map(([label, surahs]) => (
           <div key={label} className="bg-white rounded-xl shadow-sm border border-slate-200 overflow-hidden">
             <div className="bg-slate-50 px-6 py-3 border-b border-slate-200 flex items-center justify-between">
-              <h3 className="font-bold text-slate-700">Tahap: {label.replace('_', ' ', 'nama')}</h3>
+              <h3 className="font-bold text-slate-700">Tahap: {label.replace('_', ' ', 'Armadhan fithra')}</h3>
               <span className="text-xs bg-emerald-100 text-emerald-800 px-2 py-1 rounded-full font-medium">
                 {surahs.filter(s => s.sudah_setor).length} / {surahs.length} Selesai
               </span>
